@@ -22,7 +22,8 @@ class CustomTextField: UITextField {
         self.font = UIFont(name: "KCC-Ganpan", size: 15.0)
         self.layer.borderWidth = 2
         self.layer.borderColor = UIColor(named: "hatBakground")?.cgColor
-        self.layer.cornerRadius = 10
+        self.layer.cornerRadius = 16.6
+        self.layer.cornerCurve = .continuous
         self.clipsToBounds = true
         self.textAlignment = .center
         

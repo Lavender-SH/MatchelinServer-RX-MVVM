@@ -24,6 +24,7 @@ class LoginViewController: BaseViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         tapGesture.cancelsTouchesInView = false
         view.addGestureRecognizer(tapGesture)
+        
     }
     
     
@@ -38,18 +39,24 @@ class LoginViewController: BaseViewController {
     }
     
     @objc func signUpButton() {
-//        let signUpViewController = SignUpViewController()
-//        present(signUpViewController, animated: true, completion: nil)
+        let signUpViewController = SignUpViewController()
+        present(signUpViewController, animated: true, completion: nil)
     }
     @objc func withdrawButton() {
 //        let withdrawViewController = WithdrawViewController()
 //        present(withdrawViewController, animated: true, completion: nil)
     }
     @objc func loginButton() {
+        
+        
+        
+        
+        
 //        let mainViewController = MainViewController()
 //        present(mainViewController, animated: true, completion: nil)
     }
     
+
     
     
 }

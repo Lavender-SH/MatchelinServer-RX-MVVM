@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020DEBE92B11BFB200350F33 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DEBE82B11BFB200350F33 /* SignUpViewController.swift */; };
+		020DEBEB2B11BFD400350F33 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DEBEA2B11BFD400350F33 /* SignUpView.swift */; };
+		020DEBED2B11C30A00350F33 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DEBEC2B11C30A00350F33 /* CustomTextField.swift */; };
+		020DEBF02B11CA1700350F33 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DEBEF2B11CA1700350F33 /* NetworkManager.swift */; };
+		020DEBF32B11CA4200350F33 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DEBF22B11CA4200350F33 /* APIRequest.swift */; };
 		02220BC72B0A480100533A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220BC62B0A480100533A7F /* AppDelegate.swift */; };
 		02220BC92B0A480100533A7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220BC82B0A480100533A7F /* SceneDelegate.swift */; };
 		02220BCB2B0A480100533A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220BCA2B0A480100533A7F /* ViewController.swift */; };
@@ -27,14 +32,13 @@
 		02220C102B0A4B5400533A7F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220C0D2B0A4B5400533A7F /* APIManager.swift */; };
 		02220C112B0A4B5400533A7F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220C0E2B0A4B5400533A7F /* API.swift */; };
 		02220C162B0A4B8000533A7F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220C132B0A4B8000533A7F /* LoginViewController.swift */; };
-		02220C172B0A4B8000533A7F /* GrayTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220C142B0A4B8000533A7F /* GrayTextField.swift */; };
 		02220C182B0A4B8000533A7F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220C152B0A4B8000533A7F /* LoginView.swift */; };
 		02220C1B2B0A90CF00533A7F /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 02220C1A2B0A90CF00533A7F /* CombineMoya */; };
 		02220C1D2B0A90CF00533A7F /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 02220C1C2B0A90CF00533A7F /* Moya */; };
 		02220C1F2B0A90CF00533A7F /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 02220C1E2B0A90CF00533A7F /* ReactiveMoya */; };
 		02220C212B0A90CF00533A7F /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 02220C202B0A90CF00533A7F /* RxMoya */; };
 		02220C232B0A912700533A7F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 02220C222B0A912700533A7F /* .gitignore */; };
-		02220C252B0A914C00533A7F /* SesacKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220C242B0A914C00533A7F /* SesacKey.swift */; };
+		02220C252B0A914C00533A7F /* SesacLSLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220C242B0A914C00533A7F /* SesacLSLP.swift */; };
 		0237431E2B117F5C00128C7D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0237431A2B117F5C00128C7D /* BaseViewController.swift */; };
 		0237431F2B117F5C00128C7D /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0237431B2B117F5C00128C7D /* BaseTableViewCell.swift */; };
 		023743202B117F5C00128C7D /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0237431C2B117F5C00128C7D /* BaseCollectionViewCell.swift */; };
@@ -60,6 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		020DEBE82B11BFB200350F33 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		020DEBEA2B11BFD400350F33 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		020DEBEC2B11C30A00350F33 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		020DEBEF2B11CA1700350F33 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		020DEBF22B11CA4200350F33 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		02220BC32B0A480100533A7F /* LSLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02220BC62B0A480100533A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02220BC82B0A480100533A7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,10 +85,9 @@
 		02220C0D2B0A4B5400533A7F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		02220C0E2B0A4B5400533A7F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		02220C132B0A4B8000533A7F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		02220C142B0A4B8000533A7F /* GrayTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayTextField.swift; sourceTree = "<group>"; };
 		02220C152B0A4B8000533A7F /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		02220C222B0A912700533A7F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		02220C242B0A914C00533A7F /* SesacKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesacKey.swift; sourceTree = "<group>"; };
+		02220C242B0A914C00533A7F /* SesacLSLP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesacLSLP.swift; sourceTree = "<group>"; };
 		0237431A2B117F5C00128C7D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0237431B2B117F5C00128C7D /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		0237431C2B117F5C00128C7D /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -124,6 +132,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		020DEBE72B11BF8A00350F33 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				020DEBE82B11BFB200350F33 /* SignUpViewController.swift */,
+				020DEBEA2B11BFD400350F33 /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		020DEBEE2B11C99F00350F33 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				020DEBEF2B11CA1700350F33 /* NetworkManager.swift */,
+				020DEBF22B11CA4200350F33 /* APIRequest.swift */,
+				02220C242B0A914C00533A7F /* SesacLSLP.swift */,
+				02220C222B0A912700533A7F /* .gitignore */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		02220BBA2B0A480100533A7F = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +180,9 @@
 				02220BCA2B0A480100533A7F /* ViewController.swift */,
 				023743192B117F5C00128C7D /* Base */,
 				02220C122B0A4B8000533A7F /* Login */,
-				02220C0B2B0A4B5400533A7F /* API */,
+				020DEBE72B11BF8A00350F33 /* SignUp */,
+				020DEBEE2B11C99F00350F33 /* API */,
+				02220C0B2B0A4B5400533A7F /* API Moya */,
 				023743222B11951000128C7D /* Font */,
 				02220BCF2B0A480200533A7F /* Assets.xcassets */,
 				02220BD12B0A480200533A7F /* LaunchScreen.storyboard */,
@@ -178,16 +208,14 @@
 			path = LSLPUITests;
 			sourceTree = "<group>";
 		};
-		02220C0B2B0A4B5400533A7F /* API */ = {
+		02220C0B2B0A4B5400533A7F /* API Moya */ = {
 			isa = PBXGroup;
 			children = (
 				02220C0C2B0A4B5400533A7F /* APIModel.swift */,
 				02220C0D2B0A4B5400533A7F /* APIManager.swift */,
 				02220C0E2B0A4B5400533A7F /* API.swift */,
-				02220C242B0A914C00533A7F /* SesacKey.swift */,
-				02220C222B0A912700533A7F /* .gitignore */,
 			);
-			path = API;
+			path = "API Moya";
 			sourceTree = "<group>";
 		};
 		02220C122B0A4B8000533A7F /* Login */ = {
@@ -195,7 +223,6 @@
 			children = (
 				02220C132B0A4B8000533A7F /* LoginViewController.swift */,
 				02220C152B0A4B8000533A7F /* LoginView.swift */,
-				02220C142B0A4B8000533A7F /* GrayTextField.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -207,6 +234,7 @@
 				0237431B2B117F5C00128C7D /* BaseTableViewCell.swift */,
 				0237431C2B117F5C00128C7D /* BaseCollectionViewCell.swift */,
 				0237431D2B117F5C00128C7D /* BseView.swift */,
+				020DEBEC2B11C30A00350F33 /* CustomTextField.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -376,14 +404,18 @@
 				02220C0F2B0A4B5400533A7F /* APIModel.swift in Sources */,
 				02220BCB2B0A480100533A7F /* ViewController.swift in Sources */,
 				0237431E2B117F5C00128C7D /* BaseViewController.swift in Sources */,
-				02220C172B0A4B8000533A7F /* GrayTextField.swift in Sources */,
 				0237431F2B117F5C00128C7D /* BaseTableViewCell.swift in Sources */,
 				02220C182B0A4B8000533A7F /* LoginView.swift in Sources */,
 				02220C162B0A4B8000533A7F /* LoginViewController.swift in Sources */,
+				020DEBED2B11C30A00350F33 /* CustomTextField.swift in Sources */,
 				02220C102B0A4B5400533A7F /* APIManager.swift in Sources */,
 				02220BC72B0A480100533A7F /* AppDelegate.swift in Sources */,
-				02220C252B0A914C00533A7F /* SesacKey.swift in Sources */,
+				020DEBF32B11CA4200350F33 /* APIRequest.swift in Sources */,
+				020DEBE92B11BFB200350F33 /* SignUpViewController.swift in Sources */,
+				020DEBF02B11CA1700350F33 /* NetworkManager.swift in Sources */,
+				02220C252B0A914C00533A7F /* SesacLSLP.swift in Sources */,
 				02220C112B0A4B5400533A7F /* API.swift in Sources */,
+				020DEBEB2B11BFD400350F33 /* SignUpView.swift in Sources */,
 				023743212B117F5C00128C7D /* BseView.swift in Sources */,
 				023743202B117F5C00128C7D /* BaseCollectionViewCell.swift in Sources */,
 				02220BC92B0A480100533A7F /* SceneDelegate.swift in Sources */,

@@ -5,7 +5,6 @@
 //  Created by 이승현 on 2023/09/18.
 //
 
-import Foundation
 import UIKit
 import SnapKit
 
@@ -31,27 +30,15 @@ class LoginView: BaseView {
     }()
 
     let emailTextField = {
-        let textField = UITextField()
+        let textField = CustomTextField()
         textField.placeholder = "이메일"
-        textField.font = UIFont(name: "KCC-Ganpan", size: 15.0)
-        textField.layer.borderWidth = 2
-        textField.layer.borderColor = UIColor(named: "hatBakground")?.cgColor
-        textField.layer.cornerRadius = 10
-        textField.clipsToBounds = true
-        textField.textAlignment = .center
         return textField
     }()
 
     
     let passwordTextField = {
-        let textField = UITextField()
+        let textField = CustomTextField()
         textField.placeholder = "비밀번호"
-        textField.font = UIFont(name: "KCC-Ganpan", size: 15.0)
-        textField.layer.borderColor = UIColor(named: "hatBakground")?.cgColor
-        textField.layer.borderWidth = 2
-        textField.layer.cornerRadius = 10
-        textField.clipsToBounds = true
-        textField.textAlignment = .center
         return textField
     }()
     
@@ -119,7 +106,7 @@ class LoginView: BaseView {
     }
     override func setConstraints() {
         titleLabel.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(100)
+            make.top.equalToSuperview().offset(80)
             make.leading.equalToSuperview().offset(50)
             make.trailing.equalToSuperview().offset(-50)
             make.height.equalTo(50)
@@ -127,7 +114,7 @@ class LoginView: BaseView {
         }
         
         logoImageView.snp.makeConstraints { make in
-            make.top.equalTo(titleLabel.snp.bottom).offset(0)
+            make.top.equalTo(titleLabel.snp.bottom).inset(20)
 //            make.leading.equalToSuperview().offset(50)
 //            make.trailing.equalToSuperview().offset(-50)
             make.height.equalTo(250)
@@ -135,7 +122,7 @@ class LoginView: BaseView {
         }
 
         emailTextField.snp.makeConstraints { make in
-            make.top.equalTo(logoImageView.snp.bottom).offset(0)
+            make.top.equalTo(logoImageView.snp.bottom).inset(15)
             make.leading.equalToSuperview().offset(50)
             make.trailing.equalToSuperview().offset(-50)
             make.height.equalTo(50)
