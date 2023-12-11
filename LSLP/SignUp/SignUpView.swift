@@ -8,9 +8,6 @@
 import UIKit
 import SnapKit
 
-import UIKit
-import SnapKit
-
 class SignUpView: BaseView {
     
     // titleLabel, logoImageView와 유사한 구성

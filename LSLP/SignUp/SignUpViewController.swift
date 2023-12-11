@@ -61,16 +61,10 @@ class SignUpViewController: BaseViewController {
         let alert = UIAlertController(title: "알림", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "확인", style: .default, handler: { _ in
             if isSignUpSuccess {
-                self.navigateToLogin()
+                self.dismiss(animated: true, completion: nil)
             }
         }))
         self.present(alert, animated: true)
-    }
-    
-    //가입이 완료되면 로그인화면으로 이동
-    private func navigateToLogin() {
-        let loginVC = self.storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
-        self.navigationController?.pushViewController(loginVC, animated: true)
     }
     
     // MARK: - 이메일 중복 확인
